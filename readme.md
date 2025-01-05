@@ -31,19 +31,19 @@ Ensure your system meets the following requirements:
 - Required libraries:
   ```bash
   pip install torch psutil pyttsx3 SpeechRecognition numpy
-```
-  # For GPU support
+
+## For GPU support
+
   ```bash
-  pip install torch torchvision torchaudio -f https://download.pytorch.org/whl/cu111/torch_stable.html
-  ```
+pip install torch torchvision torchaudio -f https://download.pytorch.org/whl/cu111/torch_stable.html
+```
 
 ### 🔧 Installation  
 
 1. Clone the repository:  
    ```bash
    git clone https://github.com/your-username/jarvis-ai.git
-cd jarvis-ai
-```
+   cd jarvis-ai
 
 2. Run the main script::  
    ```bash
