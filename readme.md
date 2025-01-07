@@ -42,7 +42,7 @@ pip install torch torchvision torchaudio -f https://download.pytorch.org/whl/cu1
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/jarvis-ai.git
+   git clone https://github.com/VadikGoyal1/Jarvis-AI.git
    cd jarvis-ai
 
 2. Run the main script::  
