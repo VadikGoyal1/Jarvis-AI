@@ -29,24 +29,24 @@ Ensure your system meets the following requirements:
 - Python 3.8 or higher.  
 - A GPU with CUDA support for faster neural network computations (optional).  
 - Required libraries:
-  ```bash
+  ```python
   pip install torch psutil pyttsx3 SpeechRecognition numpy
 
 ## For GPU support
 
-  ```bash
+  ```python
 pip install torch torchvision torchaudio -f https://download.pytorch.org/whl/cu111/torch_stable.html
 ```
 
 ### 🔧 Installation  
 
 1. Clone the repository:  
-   ```bash
+   ```python
    git clone https://github.com/VadikGoyal1/Jarvis-AI.git
    cd jarvis-ai
 
 2. Run the main script::  
-   ```bash
+   ```python
    python jarvis.py
    ```
 
@@ -57,15 +57,15 @@ Running ``jarvis.py`` initializes all cores and system monitoring.
 
 2. Execute Processes:
 Use the ``run_process`` method to execute external system commands.
-```bash
-    process_id = jarvis.run_process(["ls", "-la"])
+```python
+process_id = jarvis.run_process(["ls", "-la"])
 print(jarvis.get_process_status(process_id))
 ```
 
 3. Monitor System Health:
 Jarvis logs system resource usage automatically. Retrieve the latest status:
-```bash
-    print(jarvis.get_system_health())
+```python
+print(jarvis.get_system_health())
 ```
 
 4. Custom Tasks:
